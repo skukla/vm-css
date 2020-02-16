@@ -1,0 +1,237 @@
+/* Buttons */
+.action.primary,
+.actions-toolbar > .primary .action:last-child,
+.actions-toolbar > .secondary .action:last-child {
+	background-color: ;
+	border-color: ;
+	color: white !important;
+}
+.action.primary:hover,
+.action.primary:active,
+.action.primary:focus,
+.action.primary:visited {
+	background-color: ;
+	border-color: ;
+	color: white !important;
+}
+/* Forgot Password and Cancel Links (These are tricky, trust me) */
+.actions-toolbar .secondary a.action.remind,
+.modal-popup .actions-toolbar .secondary .action,
+.field-attachment label,
+.field-attachment label:before,
+.quote-grid-filters-wrap .action {
+	background-color: white !important;
+	color: #264294 !important;
+}
+/* Nav Links */
+.navigation ul li a,
+.navigation ul li a:visited {
+	color: #575757 !important;
+}
+.navigation .level0.active > .level-top,
+.navigation .level0.has-active > .level-top,
+.navigation .level0 .submenu .active > a,
+.block-collapsible-nav .item.current a,
+.block-collapsible-nav .item.current > strong.fotorama__thumb-border {
+	border-color: #ff5501;
+}
+/* Main Nav Bar (Navigation Container - Outside Edges) */
+.nav-sections,
+.navigation,
+.nav-sections-item-content {
+	background-color: ;
+}
+/* Center Nav Bar (Links) */
+nav.navigation {
+	background-color: ;
+}
+/* Header Bar */
+.page-header .header.panel,
+.page-header .panel.wrapper {
+	background-color: ;
+	border: ;
+}
+/* Header Panel */
+.page-header {
+	background-color: white !important;
+}
+/* Logo */
+logo img {
+	width: ;
+	height: ;
+}
+/* Sign in and Create Account Links */
+.header.panel > .header.links > li.welcome,
+.header.panel > .header.links > li > a {
+	color: white !important;
+}
+/* Header Text */
+ul.header.links {
+	color: white !important;
+}
+/* My Account Dropdown Links */
+.customer-welcome li a,
+.customer-welcome li a:visited {
+	color: #575757 !important;
+}
+/* Arrow Next To Logged-In Customer's Name */
+.customer-welcome .action.switch:after {
+	color: white;
+}
+/* Language and Currency Switchers */
+.page-header .switcher strong,
+.page-footer .switcher strong,
+.page-header .switcher .options .action.toggle,
+.page-footer .switcher .options .action.toggle {
+	color: white !important;
+}
+/* Mini Cart Icon */
+.minicart-wrapper .action.showcart:before {
+	color: #757575 !important;
+}
+/* Mini Cart Items Count (Orange) */
+.minicart-wrapper .action.showcart .counter.qty {
+	background: #ff5501;
+	color: #ffffff;
+}
+/* My Account Sidebar Links */
+.block-collapsible-nav .item a,
+.block-collapsible-nav .item > strong {
+	color: #575757 !important;
+}
+/* In Store Pickup Link */
+.catalog-product-view .instorepickup-pdp-wrapper .instorepickup-change-trigger {
+	color: ;
+}
+/* B2B-specific My Account Links */
+.form-edit-role .box-actions button.action,
+.block-dashboard-company .box-actions button.action,
+.form-edit-role
+	.box-actions
+	.quote-details-items
+	.actions-toolbar
+	> .action.action,
+.block-dashboard-company
+	.box-actions
+	.quote-details-items
+	.actions-toolbar
+	> .action.action {
+	color: #1979c3;
+}
+/* Footer Links */
+ul.footer.links > li > a,
+.page-footer .switcher .options .action.toggle,
+.page-footer .switcher .options ul.dropdown a,
+.page-footer .switcher .options ul.dropdown a:visited {
+	color: #575757 !important;
+}
+
+/* Product Detail Page */
+
+/* Photo Gallery Outlines */
+.fotorama__thumb-border {
+	border-color: #ff5501;
+}
+/* Swatch Borders */
+.swatch-option.image:not(.disabled):hover,
+.swatch-option.color:not(.disabled):hover,
+.swatch-option.selected {
+	outline: #ff5501;
+}
+/* Add to Wishlist */
+.bundle-options-container .block-bundle-summary .product-addto-links > .action,
+.product-item-actions .actions-secondary > .action,
+.product-social-links .action.tocompare,
+.wishlist.split.button > .action.split,
+.product-social-links .action.mailto.friend,
+.product-social-links .action.towishlist,
+.block-bundle-summary .action.towishlist,
+.product-item .action.towishlist,
+.table-comparison .action.towishlist {
+	color: #006bb4;
+}
+
+/* Shopping Cart Styles */
+.cart.table-wrapper .wishlist.split.button > .action.split,
+.cart.table-wrapper .wishlist.split.button > .action.toggle,
+.gift-item-block .title,
+.paypal-review-discount .block > .title strong,
+.cart-discount .block > .title strong {
+	color: #006bb4;
+}
+.gift-options .actions-toolbar .secondary .action-cancel {
+	background-color: white !important;
+	color: #575757 !important;
+}
+
+/* Checkout Styles  - Orange Progress Bars, etc */
+.opc-progress-bar-item._active:before,
+.opc-progress-bar-item._active > span:before {
+	background: #ff5501;
+	border-color: #ff5501;
+}
+.opc-progress-bar-item._active > span:after,
+.opc-wrapper .shipping-address-item.selected-item {
+	border-color: #ff5501;
+}
+.opc-wrapper .shipping-address-item.selected-item:after {
+	background: #ff5501;
+	color: ;
+}
+
+/* Page Builder Styles */
+
+/* Page Builder Primary Buttons */
+a.pagebuilder-button-primary,
+button.pagebuilder-button-primary,
+div.pagebuilder-button-primary {
+	background: ;
+	border: ;
+	color: ;
+}
+a.pagebuilder-button-primary:hover,
+button.pagebuilder-button-primary:hover,
+div.pagebuilder-button-primary:hover {
+	background: ;
+	border: ;
+	color: ;
+}
+/* Page Builder Secondary Buttons */
+a.pagebuilder-button-secondary,
+button.pagebuilder-button-secondary,
+div.pagebuilder-button-secondary {
+	background: ;
+	border: ;
+	color: ;
+}
+a.pagebuilder-button-secondary:hover,
+button.pagebuilder-button-secondary:hover,
+div.pagebuilder-button-secondary:hover {
+	background: ;
+	border: ;
+	color: ;
+}
+/* Page Builder Buttons as Links */
+a.pagebuilder-button-link,
+button.pagebuilder-button-link,
+div.pagebuilder-button-link {
+	color: #006bb4 !important;
+	text-decoration: ;
+}
+a.pagebuilder-button-link:hover,
+button.pagebuilder-button-link:hover,
+div.pagebuilder-button-link:hover {
+	color: ;
+	text-decoration: ;
+}
+/* Page Builder Slider Dots */
+.slick-dots li.slick-active button {
+	background: #006bb4 !important;
+}
+/* Page Builder Slider Arrows */
+.slick-prev:before,
+.slick-next:before,
+.slick-prev:after,
+.slick-next:after {
+	color: #006bb4 !important;
+}

@@ -1,0 +1,208 @@
+/* CLOUD */
+
+/* Remove this comment for use in cloud environment
+.columns .column.main{
+margin-top:-50px;
+}
+*/
+
+/*_______________________________________________________________________________________________*/
+
+/* PAGE HEADER */
+.page-header {
+	background: #fff; /* Changes the background for the entire page header */
+}
+.page-header .panel.wrapper {
+	background-color: #fff;
+	color: #000; /* The color attribute on this line changes the text color for the page header */
+	border-bottom: none;
+}
+.logo {
+	z-index: 10; /* Brings the logo to the front, which will save headache if you decide to move it around */
+	margin: 0 0 15px 80px;
+}
+.header.content {
+	padding: 10px 20px 0; /* Cleans up the spacing */
+}
+.navigation,
+.breadcrumbs,
+.page-header .header.panel,
+.header.content,
+.footer.content,
+.page-wrapper > .widget,
+.page-wrapper > .page-bottom,
+.block.category.event,
+.top-container {
+	max-width: none; /* Makes the page header including logo and Navigation full width */
+}
+
+/*_______________________________________________________________________________________________*/
+
+/* HEADER NAV */
+.page-header .header.panel {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 350px;
+}
+.header.panel > .header.links {
+	padding-right: 0px; /* Moves the header links around to fit in search and mini cart */
+	z-index: 96;
+}
+.header.panel > .header.links > li > a {
+	color: #000; /* Text color for header links */
+}
+.header.panel > .header.links > li > a:hover {
+	color: #000; /* Text color for header links on hover */
+}
+.header.panel > .header.links > li > a:visited {
+	color: #000; /* Text color for visited header links */
+}
+
+/*_______________________________________________________________________________________________*/
+
+/* MAIN NAVIGATION */
+.nav-sections {
+	padding: 0;
+	margin-bottom: 0px !important; /* Cleans up padding and margins and bringing nav to the front */
+	z-index: 9;
+}
+.nav-sections-items {
+	background: transparent; /* This allows the page header background to show through */
+}
+.navigation {
+	background: transparent;
+	padding-left: 202px; /* Repositions the nav to be in line with the logo. Adjust the left padding to move it right or left */
+	margin-top: -64px; /* Similar to above, this will adjust the navigation up and down */
+	font-size: 14px;
+	font-weight: normal;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Changes the font of the main navigation */
+}
+.navigation .level0 > .level-top {
+	color: #000; /* Navigation text color */
+}
+.navigation .level0 > .level-top.ui-state-focus {
+	color: #000; /* Navigation text color and background for hover */
+	background: transparent;
+	border-color: #3ababb;
+	border-style: solid;
+	border-width: 0 0 3px;
+}
+.navigation .level0.active > .level-top,
+.navigation .level0.has-active > .level-top {
+	border-color: #3ababb;
+	color: #000; /* Chages the color of the underline and text on selected nav items */
+}
+
+/*_______________________________________________________________________________________________*/
+
+/* Added Media Query to fix issue with responsive Minicart and Search. The original styling, which is 
+   responsive, will take effect when the screen size is above 732px
+*/
+@media only screen and (min-width: 732px) {
+	/*_______________________________________________________________________________________________*/
+
+	/* MINI CART */
+	.minicart-wrapper {
+		margin-top: -50px; /* Repositions the mini cart */
+		padding-right: 24px;
+		z-index: 98;
+	}
+	.minicart-wrapper .action.showcart:before {
+		color: #757575; /* Change the color attribute to change the cart icon color */
+	}
+	.minicart-wrapper .action.showcart:hover {
+		color: #4f4f4f; /* Change the color attribute to change the cart icon color on hover */
+	}
+
+	/*_______________________________________________________________________________________________*/
+
+	/* SEARCH BAR */
+	.block-search {
+		margin-top: -51px; /* Repositions the search in the header */
+		padding-right: 80px;
+		width: 211px;
+		z-index: 97;
+	}
+	.action.search[disabled] {
+		padding-right: 80px; /* Repositions the mini cart*/
+	}
+	.block-search input {
+		background: #fff; /* Background, border, and text for search box */
+		color: #000;
+		border: 1px solid #999;
+	}
+	.block-search .action.search:before {
+		color: #757575; /* Color of magnifying glass icon and line weight */
+		font-weight: 900;
+	}
+
+	/*_______________________________________________________________________________________________*/
+} /* Closing of media query DO NOT REMOVE THIS LINE */
+
+/*_______________________________________________________________________________________________*/
+
+/* LANGUAGE SWITCHER */
+.panel.header .links,
+.panel.header .switcher {
+	z-index: 99; /* Repositions the language dropdown */
+}
+
+/*_______________________________________________________________________________________________*/
+
+/* SPECIAL PRICE */
+.old-price {
+	color: red;
+	text-decoration: line-through;
+}
+
+/*_______________________________________________________________________________________________*/
+
+/* CHECKOUT */
+
+/* Change all the color codes to change the color of the bar and circle around the check marks in the 
+   Shipping and Review & Payment steps 
+*/
+.opc-progress-bar-item._active:before {
+	background: #ff5501;
+	border-color: #ff5501;
+}
+.opc-progress-bar-item._active > span:before {
+	background: #ff5501;
+	border-color: #ff5501;
+}
+.opc-progress-bar-item._active > span:after {
+	border-color: #ff5501;
+}
+
+/*_______________________________________________________________________________________________*/
+
+/* SITE WIDE BUTTONS */
+.action primary tocart {
+	background: #8b1c3f; /* Main Button Color */
+	border: 1px solid #8b1c3f;
+}
+.action.primary:hover {
+	background: #8b1c3f; /* Color of button on mouse over/hover */
+	border: 1px solid #8b1c3f;
+	color: #fff;
+}
+.action.primary {
+	background: #8b1c3f; /* Color of border around button */
+	border: 1px solid #8b1c3f;
+}
+
+/*_______________________________________________________________________________________________*/
+
+/* PAGE BUILDER BUTTONS */
+
+a.pagebuilder-button-primary,
+button.pagebuilder-button-primary,
+div.pagebuilder-button-primary {
+	background: #8b1c3f;
+	border: 1px solid #8b1c3f;
+}
+button.pagebuilder-button-primary:hover {
+	background: #8b1c3f;
+	border: 1px solid #8b1c3f;
+	color: #fff;
+}
